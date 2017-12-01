@@ -1,0 +1,22 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:supostat/webpack-boilerplate.git",
+  "author": "Igor Pugachev <ipugachev84@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.32",
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "@babel/runtime": "^7.0.0-beta.32",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.9.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "babel webpack.config.babel.js > webpack.config.js; webpack --env.production"
+  }
+}
